@@ -22,6 +22,8 @@
 		1625BA0B1B39D1040032F60E /* Lot_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625BA061B39D1040032F60E /* Lot_10.png */; };
 		1625BA0C1B39D1040032F60E /* Pavilion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625BA071B39D1040032F60E /* Pavilion.png */; };
 		1625BA0D1B39D1040032F60E /* Starhill_Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625BA081B39D1040032F60E /* Starhill_Gallery.png */; };
+		1671EC351B3A568E00D9722A /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC331B3A568D00D9722A /* image1.png */; };
+		1671EC361B3A568E00D9722A /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC341B3A568E00D9722A /* image2.png */; };
 		F0B40DD48A0BE9AAC871C44E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18E149E80E19DDBBE4ED476 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		1625BA061B39D1040032F60E /* Lot_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lot_10.png; path = Image/Lot_10.png; sourceTree = "<group>"; };
 		1625BA071B39D1040032F60E /* Pavilion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pavilion.png; path = Image/Pavilion.png; sourceTree = "<group>"; };
 		1625BA081B39D1040032F60E /* Starhill_Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Starhill_Gallery.png; path = Image/Starhill_Gallery.png; sourceTree = "<group>"; };
+		1671EC331B3A568D00D9722A /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = Image/image1.png; sourceTree = "<group>"; };
+		1671EC341B3A568E00D9722A /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = Image/image2.png; sourceTree = "<group>"; };
 		19E1A2153DBE638AC67F5A0F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C18E149E80E19DDBBE4ED476 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,6 +157,8 @@
 		1625B9FF1B39C4E80032F60E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				1671EC331B3A568D00D9722A /* image1.png */,
+				1671EC341B3A568E00D9722A /* image2.png */,
 				1625BA041B39D1040032F60E /* Fahrenheit88.png */,
 				1625BA051B39D1040032F60E /* KLCC.png */,
 				1625BA061B39D1040032F60E /* Lot_10.png */,
@@ -268,12 +274,14 @@
 				1625BA0D1B39D1040032F60E /* Starhill_Gallery.png in Resources */,
 				1625BA0A1B39D1040032F60E /* KLCC.png in Resources */,
 				1625BA031B39CC130032F60E /* Plaza_Low_Yat.png in Resources */,
+				1671EC361B3A568E00D9722A /* image2.png in Resources */,
 				1625BA0B1B39D1040032F60E /* Lot_10.png in Resources */,
 				1625B9D41B3989070032F60E /* Main.storyboard in Resources */,
 				1625BA011B39CB440032F60E /* Sungei_Wang_Plaza.png in Resources */,
 				1625BA091B39D1040032F60E /* Fahrenheit88.png in Resources */,
 				1625B9D91B3989080032F60E /* LaunchScreen.xib in Resources */,
 				1625B9EF1B398B600032F60E /* Podfile in Resources */,
+				1671EC351B3A568E00D9722A /* image1.png in Resources */,
 				1625B9D61B3989070032F60E /* Images.xcassets in Resources */,
 				1625BA0C1B39D1040032F60E /* Pavilion.png in Resources */,
 			);
