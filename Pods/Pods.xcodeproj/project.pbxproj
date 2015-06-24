@@ -1,0 +1,1575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC5FD8D88238B9EEF6A0555 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3616A4B3A0E459D0F2B36A /* Upload.swift */; };
+		0E195478B26FFCBD75D446D0 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B02D8A59A73833C6CDF62A /* Manager.swift */; };
+		1A745F4C7C6150AD995F904B /* Pods-kl-parking-spots-swiftTests-Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5174A5123446E26805E2C /* Pods-kl-parking-spots-swiftTests-Toucan-dummy.m */; };
+		2046CFDD01C017346904ADB1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFAA60DA5C66B21584C39F7 /* ResponseSerialization.swift */; };
+		23A4D0ECC7928E6237EEFB30 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AEDA1F606A106C56FC9DC0 /* ParameterEncoding.swift */; };
+		275849E9071C2728944D6376 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6606F0979CB206E31C9A4 /* Download.swift */; };
+		27E31F657E8CDB2B0F9F78BB /* Pods-kl-parking-spots-swift-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1B77D0F3BE769298CEDB7 /* Pods-kl-parking-spots-swift-Alamofire-dummy.m */; };
+		3737DF51A8D28F5D9107DCCE /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35DF19A6DE15700E4EA3E2 /* Toucan.swift */; };
+		394EE5CF152AD2D0C925E44C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6606F0979CB206E31C9A4 /* Download.swift */; };
+		418348817F4B4495F3A5BE5C /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFAA60DA5C66B21584C39F7 /* ResponseSerialization.swift */; };
+		4B4AB937DBDCCDCC36C29FDC /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192102769D201E411769A10 /* Pods-dummy.m */; };
+		4D3CEECC82EEF7A6B4E6263A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783F1B578733549C7F209D9 /* Validation.swift */; };
+		562A0E7FC3D268A7616464CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		5C3EA402F7DF4AD2EAFA14E4 /* Pods-kl-parking-spots-swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 870290BE4764BD0729C3EC13 /* Pods-kl-parking-spots-swiftTests-dummy.m */; };
+		5C749F576F21A321CB9CF017 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B02D8A59A73833C6CDF62A /* Manager.swift */; };
+		60AF937D0FC6170714D0C449 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B02D8A59A73833C6CDF62A /* Manager.swift */; };
+		7311A583DCEF531A614DC81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		76DB855B6E379B42D7380F25 /* Pods-kl-parking-spots-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA553E95651B3388D55D0B1 /* Pods-kl-parking-spots-swift-dummy.m */; };
+		80FC2DE4017CFBA56923774C /* Pods-kl-parking-spots-swift-Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF465B80B1123F115615723 /* Pods-kl-parking-spots-swift-Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81364D490DFD30CE66C2CEDD /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEDA17408180A15AE27A6A /* Alamofire.swift */; };
+		813A872969A528A5152D2F14 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E879AB985ED3454E79FCE9C /* Request.swift */; };
+		81508D3B06A7FDE6E377908F /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFAA60DA5C66B21584C39F7 /* ResponseSerialization.swift */; };
+		82B1AF9145D421759539EE26 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AEDA1F606A106C56FC9DC0 /* ParameterEncoding.swift */; };
+		84207827B479B29FAA462577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		9396812A1F4DA5391C4A086F /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AEDA1F606A106C56FC9DC0 /* ParameterEncoding.swift */; };
+		97BA45508B2C52347B71579B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3616A4B3A0E459D0F2B36A /* Upload.swift */; };
+		99D265CE1BB7B7B024EF51BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		9AF5FA2836D1124B86901683 /* Pods-Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0A277AAC0976C23E2B2CD /* Pods-Toucan-dummy.m */; };
+		A038BBA22D3280C2EC965745 /* Pods-kl-parking-spots-swift-Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3058CB5F8013733D49C807 /* Pods-kl-parking-spots-swift-Toucan-dummy.m */; };
+		A490DB715F76CAA8956A2AF8 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A120BA2AF6E7527FC681D5B /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88401AC3D80A72D4654772C /* Pods-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA11F28FBDF4C926EF4E69C2 /* Pods-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B532CA921B748D593505D04E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783F1B578733549C7F209D9 /* Validation.swift */; };
+		B6B0011FE9A9D5C49451DD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		C1BF9C25176F2F35E4980DF7 /* Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A22481045BFD67514EFEC1 /* Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B857C758999B4EC3A4A166 /* Pods-kl-parking-spots-swift-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1CC8954C402FF561A0122D4 /* Pods-kl-parking-spots-swift-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0528EBBB550EA2BB97981B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E879AB985ED3454E79FCE9C /* Request.swift */; };
+		CE35D9CF71197342D82C4927 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783F1B578733549C7F209D9 /* Validation.swift */; };
+		D0E9F6834BDF95B95C64B9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		DF7E2EC6BD0CAC54AA6D9E6E /* Pods-Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BDCDCBC93A8B06E20245D0 /* Pods-Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49C1FC572BD3D0047E88846 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35DF19A6DE15700E4EA3E2 /* Toucan.swift */; };
+		E5EE0A0DEC9BBA4FD130998C /* Pods-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F458E89A9AE9323C13FF93 /* Pods-Alamofire-dummy.m */; };
+		E9AE73FE8058555831007D59 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35DF19A6DE15700E4EA3E2 /* Toucan.swift */; };
+		EDF7E807B602A5D12482265C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6606F0979CB206E31C9A4 /* Download.swift */; };
+		EF624381B3C5CA5E7E92944F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEDA17408180A15AE27A6A /* Alamofire.swift */; };
+		F0035443A102DBA91EC51717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		F0AAF8F3A90C0FE0AB42D437 /* Pods-kl-parking-spots-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE313A25DC346DF08CE3D9E /* Pods-kl-parking-spots-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28583E7E41F43393746BC0A /* Pods-kl-parking-spots-swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B069BD92E2588FF50423E6 /* Pods-kl-parking-spots-swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2F633B83723F6ECBC974290 /* Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490E73B984E9E45044A21E24 /* Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E22C4BDF48688DAABAC120 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E879AB985ED3454E79FCE9C /* Request.swift */; };
+		F809A6EE868F0E5CA11C6DA0 /* Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F33FE9C0FAB7C6591FAF1 /* Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m */; };
+		F9E2CEF584E8E7BC23F93FD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		FC4C9A4CD91F9E181CB9DA4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410DFB0B8D69882BF75B798C /* Foundation.framework */; };
+		FE10F9D5A66E6E46633E452B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3616A4B3A0E459D0F2B36A /* Upload.swift */; };
+		FE9165E24E10BFAB2C960878 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEDA17408180A15AE27A6A /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00953FC8B40AA8BCDBF571A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B5441E720A0AFD0AFB3A12;
+			remoteInfo = "Pods-kl-parking-spots-swift-Toucan";
+		};
+		08530D9F2AA5EC70CAA61C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169C46D673C06612435236FD;
+			remoteInfo = "Pods-kl-parking-spots-swiftTests-Toucan";
+		};
+		648AFCC33EA02D384287FA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04964CFE954A66A32F5A4A7D;
+			remoteInfo = "Pods-Toucan";
+		};
+		7AED4B595E0C4D722B894501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F1617C9A33013F415CAB6B;
+			remoteInfo = "Pods-kl-parking-spots-swift-Alamofire";
+		};
+		8ED9229C05BC5CC70244489A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639BC97B0206D6FA82987A4D;
+			remoteInfo = "Pods-kl-parking-spots-swiftTests-Alamofire";
+		};
+		B531ABEA228AE1F2ACD1B64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355906241CDEED7960E72766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A18088233ADB7C949319A0;
+			remoteInfo = "Pods-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E1B77D0F3BE769298CEDB7 /* Pods-kl-parking-spots-swift-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-kl-parking-spots-swift-Alamofire-dummy.m"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0120422274BD8DA86B40F4F3 /* Pods_kl_parking_spots_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kl_parking_spots_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A4FA909AD7BF32C30C862F /* Pods-kl-parking-spots-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kl-parking-spots-swift.release.xcconfig"; sourceTree = "<group>"; };
+		0A8177A2C710DDEC22C3DD84 /* Pods-kl-parking-spots-swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kl-parking-spots-swift-resources.sh"; sourceTree = "<group>"; };
+		0F08010926552540FC296053 /* Pods-Toucan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toucan.xcconfig"; sourceTree = "<group>"; };
+		1249697BBF288E5078E2AE4F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BDCDCBC93A8B06E20245D0 /* Pods-Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Toucan-umbrella.h"; sourceTree = "<group>"; };
+		19B1AA49641DBA9CCE91876F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA5174A5123446E26805E2C /* Pods-kl-parking-spots-swiftTests-Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-kl-parking-spots-swiftTests-Toucan-dummy.m"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-dummy.m"; sourceTree = "<group>"; };
+		22A22481045BFD67514EFEC1 /* Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h"; sourceTree = "<group>"; };
+		23D44B6B19E093893B143545 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23D4B1AA50532296B649B18A /* Pods-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		27E619D9AEC042BECA50AB5A /* Pods-kl-parking-spots-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kl-parking-spots-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2924E7DC1BB3608FC8FB0DA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-kl-parking-spots-swift-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		2AE313A25DC346DF08CE3D9E /* Pods-kl-parking-spots-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kl-parking-spots-swift-umbrella.h"; sourceTree = "<group>"; };
+		2DB2551FAC49450AFA8F71E8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E879AB985ED3454E79FCE9C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2F6351326E0A6AE4942F0DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Info.plist"; sourceTree = "<group>"; };
+		321E224296F0BB56E5B85576 /* Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch"; sourceTree = "<group>"; };
+		36B6CB35BD5834C377EBB27F /* Pods-kl-parking-spots-swiftTests-Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-kl-parking-spots-swiftTests-Toucan.modulemap"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan.modulemap"; sourceTree = "<group>"; };
+		3AFAA60DA5C66B21584C39F7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3DCB4909AA08B4BE1477500A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410DFB0B8D69882BF75B798C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41C6606F0979CB206E31C9A4 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		428C0D272F6B2B85856D2D75 /* Pods-Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Toucan-prefix.pch"; sourceTree = "<group>"; };
+		44F0A277AAC0976C23E2B2CD /* Pods-Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Toucan-dummy.m"; sourceTree = "<group>"; };
+		479FCB14761B28A72F569597 /* Pods-kl-parking-spots-swiftTests-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-kl-parking-spots-swiftTests-Alamofire.modulemap"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire.modulemap"; sourceTree = "<group>"; };
+		490E73B984E9E45044A21E24 /* Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		49DEE3F9AA981A19538C164B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDA6A470395416DB14F022F /* Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		4EDEDA17408180A15AE27A6A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		4EF1E8D3F42480A66122157C /* Pods-kl-parking-spots-swift-Toucan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swift-Toucan.xcconfig"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan.xcconfig"; sourceTree = "<group>"; };
+		4F2F32B8BCB65A1BE60FD491 /* Pods-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		5314EC83FCA690AC51168244 /* Pods-kl-parking-spots-swiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kl-parking-spots-swiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		5314FB8F5793F5CD54F7A6F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55ED966846E864BF1229716D /* Pods-kl-parking-spots-swift-Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swift-Toucan-prefix.pch"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-prefix.pch"; sourceTree = "<group>"; };
+		5E3058CB5F8013733D49C807 /* Pods-kl-parking-spots-swift-Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-kl-parking-spots-swift-Toucan-dummy.m"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-dummy.m"; sourceTree = "<group>"; };
+		5F1C5144B6D3B94973C419AC /* Pods-kl-parking-spots-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kl-parking-spots-swift-frameworks.sh"; sourceTree = "<group>"; };
+		63AEDA1F606A106C56FC9DC0 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		63C1444D4D14259E7D945B38 /* Pods-kl-parking-spots-swift-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swift-Alamofire-prefix.pch"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6861DD47CFC0B8880B8D45F2 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6A1C25B87C6959FE459CD4BE /* Pods-kl-parking-spots-swiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kl-parking-spots-swiftTests-resources.sh"; sourceTree = "<group>"; };
+		6DE671B594FB03711AE753B0 /* Pods_kl_parking_spots_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kl_parking_spots_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8AB502DF05D7A4EBD35153 /* Pods-kl-parking-spots-swift-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-kl-parking-spots-swift-Alamofire.modulemap"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire.modulemap"; sourceTree = "<group>"; };
+		7000D02BACC8B838EF3866AE /* Pods-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Alamofire.modulemap"; sourceTree = "<group>"; };
+		77D533916D2DD946B4B3CE4F /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		7881F7DA8673623078A374F7 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B02D8A59A73833C6CDF62A /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		7A120BA2AF6E7527FC681D5B /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		7B02F96F082419964084856D /* Pods-Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Toucan.modulemap"; sourceTree = "<group>"; };
+		7D6DB6F1DCD9971C561CF96E /* Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		870290BE4764BD0729C3EC13 /* Pods-kl-parking-spots-swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kl-parking-spots-swiftTests-dummy.m"; sourceTree = "<group>"; };
+		8783F1B578733549C7F209D9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		897F6E4080A8AF75FA1DC1AD /* Pods-kl-parking-spots-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-kl-parking-spots-swift.modulemap"; sourceTree = "<group>"; };
+		8B03EEE1FF0FFA84DA35C3F6 /* Pods-kl-parking-spots-swift-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kl-parking-spots-swift-environment.h"; sourceTree = "<group>"; };
+		9192102769D201E411769A10 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		92B069BD92E2588FF50423E6 /* Pods-kl-parking-spots-swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kl-parking-spots-swiftTests-umbrella.h"; sourceTree = "<group>"; };
+		93BC52ADF0BA60382F0D98F0 /* Pods-kl-parking-spots-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kl-parking-spots-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		94D6603D4C9D69E155B29E94 /* Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		9574BB3E6043E3D4753AB39E /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C4D7BC8DE6B6CE9DB6E1CB /* Pods-kl-parking-spots-swiftTests-Toucan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swiftTests-Toucan.xcconfig"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan.xcconfig"; sourceTree = "<group>"; };
+		9A0717EC089771052375893E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0A187783C7AEBBE5458135 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		9A4465C5DD3A4B4F38A1B143 /* Pods-Toucan-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toucan-Private.xcconfig"; sourceTree = "<group>"; };
+		9EE3B4136E006A36B897DB3F /* Pods-kl-parking-spots-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kl-parking-spots-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		A95DD766158DECCF805BDB49 /* Pods-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		AC9866BEA323468E1ADA5E82 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F458E89A9AE9323C13FF93 /* Pods-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		B1DF8A44DFA06C8E1D51F4CF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D03F27A4529F49FDE02641 /* Pods-kl-parking-spots-swiftTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kl-parking-spots-swiftTests-environment.h"; sourceTree = "<group>"; };
+		B4A1B2988764771ED5B08FD0 /* Pods-kl-parking-spots-swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-kl-parking-spots-swiftTests.modulemap"; sourceTree = "<group>"; };
+		B55C858788CED1DB85D138C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		B69D2D7DA8A1428DABF1FD92 /* Pods-kl-parking-spots-swiftTests-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swiftTests-Alamofire.xcconfig"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		B85163D5EB38E5C51BB03D4A /* Pods-kl-parking-spots-swift-Toucan-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swift-Toucan-Private.xcconfig"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-Private.xcconfig"; sourceTree = "<group>"; };
+		B8B03F62C8CCF06D0B53469E /* Pods-kl-parking-spots-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kl-parking-spots-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA78064E86D3C1FEF6C89737 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-kl-parking-spots-swift-Toucan/Info.plist"; sourceTree = "<group>"; };
+		BB35DF19A6DE15700E4EA3E2 /* Toucan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toucan.swift; path = Source/Toucan.swift; sourceTree = "<group>"; };
+		BEA553E95651B3388D55D0B1 /* Pods-kl-parking-spots-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kl-parking-spots-swift-dummy.m"; sourceTree = "<group>"; };
+		BF3616A4B3A0E459D0F2B36A /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		C1CC8954C402FF561A0122D4 /* Pods-kl-parking-spots-swift-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swift-Alamofire-umbrella.h"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		CA11F28FBDF4C926EF4E69C2 /* Pods-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D0DF3851BE6D2319BA85A5C0 /* Pods-kl-parking-spots-swift-Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-kl-parking-spots-swift-Toucan.modulemap"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan.modulemap"; sourceTree = "<group>"; };
+		D5BF62DB7463C948C45877C0 /* Pods-kl-parking-spots-swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kl-parking-spots-swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA9288C82AD5517C8553BC2A /* Pods-kl-parking-spots-swift-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swift-Alamofire.xcconfig"; path = "../Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		DD2D1895757B8AB302A77F47 /* Pods-kl-parking-spots-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kl-parking-spots-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDAEECF7A60B8022530F1E29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		E24F33FE9C0FAB7C6591FAF1 /* Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m"; path = "../Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E3D8095AF27909B4B72665AD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E7C6FB7E0ADD3BB52685841A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF465B80B1123F115615723 /* Pods-kl-parking-spots-swift-Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-kl-parking-spots-swift-Toucan-umbrella.h"; path = "../Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-umbrella.h"; sourceTree = "<group>"; };
+		F3BD6D856C6B22C867A032C0 /* Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig"; path = "../Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig"; sourceTree = "<group>"; };
+		F7AA01AEBDD0D4170F1890D8 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F891729B107391382E44DE7C /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		FE5D2DE95D646D3220228A39 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEBDF9DB8374BE52174C611E /* Pods-kl-parking-spots-swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kl-parking-spots-swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026130D2858650D055C32C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D265CE1BB7B7B024EF51BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089AA343B06B3A2F569AD41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C9A4CD91F9E181CB9DA4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC403BB4E478AADBCF67C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B0011FE9A9D5C49451DD34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33360F460EF4CE9C30997AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84207827B479B29FAA462577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0F17B97C0CE420459B8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E2CEF584E8E7BC23F93FD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0F7CDEB81C2295A94A830D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7311A583DCEF531A614DC81D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1C339D6F8D4A9F99E63F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0035443A102DBA91EC51717 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6255E8AF827EF24D75722A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E9F6834BDF95B95C64B9BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931E38B028D38FA1852AF756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A0E7FC3D268A7616464CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E708F9601CDA7530CE6B059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				321382D5F696548CB4EBA189 /* Alamofire */,
+				AEE80CA7DC211D6E2891885E /* Toucan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		321382D5F696548CB4EBA189 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4EDEDA17408180A15AE27A6A /* Alamofire.swift */,
+				41C6606F0979CB206E31C9A4 /* Download.swift */,
+				79B02D8A59A73833C6CDF62A /* Manager.swift */,
+				63AEDA1F606A106C56FC9DC0 /* ParameterEncoding.swift */,
+				2E879AB985ED3454E79FCE9C /* Request.swift */,
+				3AFAA60DA5C66B21584C39F7 /* ResponseSerialization.swift */,
+				BF3616A4B3A0E459D0F2B36A /* Upload.swift */,
+				8783F1B578733549C7F209D9 /* Validation.swift */,
+				9FB3F1A9F90E1CDC5D0A2B45 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		32EE1A3CFE082F9B04E55E85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA78064E86D3C1FEF6C89737 /* Info.plist */,
+				2F6351326E0A6AE4942F0DDD /* Info.plist */,
+				5314FB8F5793F5CD54F7A6F6 /* Info.plist */,
+				7B02F96F082419964084856D /* Pods-Toucan.modulemap */,
+				0F08010926552540FC296053 /* Pods-Toucan.xcconfig */,
+				9A4465C5DD3A4B4F38A1B143 /* Pods-Toucan-Private.xcconfig */,
+				44F0A277AAC0976C23E2B2CD /* Pods-Toucan-dummy.m */,
+				428C0D272F6B2B85856D2D75 /* Pods-Toucan-prefix.pch */,
+				14BDCDCBC93A8B06E20245D0 /* Pods-Toucan-umbrella.h */,
+				D0DF3851BE6D2319BA85A5C0 /* Pods-kl-parking-spots-swift-Toucan.modulemap */,
+				4EF1E8D3F42480A66122157C /* Pods-kl-parking-spots-swift-Toucan.xcconfig */,
+				B85163D5EB38E5C51BB03D4A /* Pods-kl-parking-spots-swift-Toucan-Private.xcconfig */,
+				5E3058CB5F8013733D49C807 /* Pods-kl-parking-spots-swift-Toucan-dummy.m */,
+				55ED966846E864BF1229716D /* Pods-kl-parking-spots-swift-Toucan-prefix.pch */,
+				EAF465B80B1123F115615723 /* Pods-kl-parking-spots-swift-Toucan-umbrella.h */,
+				36B6CB35BD5834C377EBB27F /* Pods-kl-parking-spots-swiftTests-Toucan.modulemap */,
+				99C4D7BC8DE6B6CE9DB6E1CB /* Pods-kl-parking-spots-swiftTests-Toucan.xcconfig */,
+				F3BD6D856C6B22C867A032C0 /* Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig */,
+				1CA5174A5123446E26805E2C /* Pods-kl-parking-spots-swiftTests-Toucan-dummy.m */,
+				321E224296F0BB56E5B85576 /* Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch */,
+				22A22481045BFD67514EFEC1 /* Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Toucan";
+			sourceTree = "<group>";
+		};
+		5956D6C41B8EE0BD816A5D47 = {
+			isa = PBXGroup;
+			children = (
+				23D44B6B19E093893B143545 /* Podfile */,
+				E929C6BFA7B27DFCBBB2D77E /* Frameworks */,
+				2E708F9601CDA7530CE6B059 /* Pods */,
+				6371379C4EA4703327839B1D /* Products */,
+				ED137C4E68426FFD7E831C8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6371379C4EA4703327839B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B1AA49641DBA9CCE91876F /* Alamofire.framework */,
+				1249697BBF288E5078E2AE4F /* Alamofire.framework */,
+				B1DF8A44DFA06C8E1D51F4CF /* Alamofire.framework */,
+				AC9866BEA323468E1ADA5E82 /* Pods.framework */,
+				6DE671B594FB03711AE753B0 /* Pods_kl_parking_spots_swift.framework */,
+				0120422274BD8DA86B40F4F3 /* Pods_kl_parking_spots_swiftTests.framework */,
+				9574BB3E6043E3D4753AB39E /* Toucan.framework */,
+				F7AA01AEBDD0D4170F1890D8 /* Toucan.framework */,
+				7881F7DA8673623078A374F7 /* Toucan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF8269D20A0713578A07B8C /* Pods-kl-parking-spots-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0717EC089771052375893E /* Info.plist */,
+				B4A1B2988764771ED5B08FD0 /* Pods-kl-parking-spots-swiftTests.modulemap */,
+				FEBDF9DB8374BE52174C611E /* Pods-kl-parking-spots-swiftTests-acknowledgements.markdown */,
+				D5BF62DB7463C948C45877C0 /* Pods-kl-parking-spots-swiftTests-acknowledgements.plist */,
+				870290BE4764BD0729C3EC13 /* Pods-kl-parking-spots-swiftTests-dummy.m */,
+				B3D03F27A4529F49FDE02641 /* Pods-kl-parking-spots-swiftTests-environment.h */,
+				5314EC83FCA690AC51168244 /* Pods-kl-parking-spots-swiftTests-frameworks.sh */,
+				6A1C25B87C6959FE459CD4BE /* Pods-kl-parking-spots-swiftTests-resources.sh */,
+				92B069BD92E2588FF50423E6 /* Pods-kl-parking-spots-swiftTests-umbrella.h */,
+				DD2D1895757B8AB302A77F47 /* Pods-kl-parking-spots-swiftTests.debug.xcconfig */,
+				27E619D9AEC042BECA50AB5A /* Pods-kl-parking-spots-swiftTests.release.xcconfig */,
+			);
+			name = "Pods-kl-parking-spots-swiftTests";
+			path = "Target Support Files/Pods-kl-parking-spots-swiftTests";
+			sourceTree = "<group>";
+		};
+		9FB3F1A9F90E1CDC5D0A2B45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2924E7DC1BB3608FC8FB0DA9 /* Info.plist */,
+				DDAEECF7A60B8022530F1E29 /* Info.plist */,
+				49DEE3F9AA981A19538C164B /* Info.plist */,
+				7000D02BACC8B838EF3866AE /* Pods-Alamofire.modulemap */,
+				23D4B1AA50532296B649B18A /* Pods-Alamofire.xcconfig */,
+				4F2F32B8BCB65A1BE60FD491 /* Pods-Alamofire-Private.xcconfig */,
+				B0F458E89A9AE9323C13FF93 /* Pods-Alamofire-dummy.m */,
+				A95DD766158DECCF805BDB49 /* Pods-Alamofire-prefix.pch */,
+				CA11F28FBDF4C926EF4E69C2 /* Pods-Alamofire-umbrella.h */,
+				6E8AB502DF05D7A4EBD35153 /* Pods-kl-parking-spots-swift-Alamofire.modulemap */,
+				DA9288C82AD5517C8553BC2A /* Pods-kl-parking-spots-swift-Alamofire.xcconfig */,
+				4BDA6A470395416DB14F022F /* Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig */,
+				00E1B77D0F3BE769298CEDB7 /* Pods-kl-parking-spots-swift-Alamofire-dummy.m */,
+				63C1444D4D14259E7D945B38 /* Pods-kl-parking-spots-swift-Alamofire-prefix.pch */,
+				C1CC8954C402FF561A0122D4 /* Pods-kl-parking-spots-swift-Alamofire-umbrella.h */,
+				479FCB14761B28A72F569597 /* Pods-kl-parking-spots-swiftTests-Alamofire.modulemap */,
+				B69D2D7DA8A1428DABF1FD92 /* Pods-kl-parking-spots-swiftTests-Alamofire.xcconfig */,
+				94D6603D4C9D69E155B29E94 /* Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig */,
+				E24F33FE9C0FAB7C6591FAF1 /* Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m */,
+				7D6DB6F1DCD9971C561CF96E /* Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch */,
+				490E73B984E9E45044A21E24 /* Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Alamofire";
+			sourceTree = "<group>";
+		};
+		AEE80CA7DC211D6E2891885E /* Toucan */ = {
+			isa = PBXGroup;
+			children = (
+				BB35DF19A6DE15700E4EA3E2 /* Toucan.swift */,
+				32EE1A3CFE082F9B04E55E85 /* Support Files */,
+			);
+			path = Toucan;
+			sourceTree = "<group>";
+		};
+		D13AC1441C3E7E89A4FD827D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				410DFB0B8D69882BF75B798C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAB98DC0CC6B951E4A899A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6FB7E0ADD3BB52685841A /* Info.plist */,
+				F891729B107391382E44DE7C /* Pods.modulemap */,
+				FE5D2DE95D646D3220228A39 /* Pods-acknowledgements.markdown */,
+				2DB2551FAC49450AFA8F71E8 /* Pods-acknowledgements.plist */,
+				9192102769D201E411769A10 /* Pods-dummy.m */,
+				77D533916D2DD946B4B3CE4F /* Pods-environment.h */,
+				6861DD47CFC0B8880B8D45F2 /* Pods-frameworks.sh */,
+				9A0A187783C7AEBBE5458135 /* Pods-resources.sh */,
+				7A120BA2AF6E7527FC681D5B /* Pods-umbrella.h */,
+				E3D8095AF27909B4B72665AD /* Pods.debug.xcconfig */,
+				B55C858788CED1DB85D138C0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		E35F1004A60F4D79603DE7E7 /* Pods-kl-parking-spots-swift */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB4909AA08B4BE1477500A /* Info.plist */,
+				897F6E4080A8AF75FA1DC1AD /* Pods-kl-parking-spots-swift.modulemap */,
+				B8B03F62C8CCF06D0B53469E /* Pods-kl-parking-spots-swift-acknowledgements.markdown */,
+				9EE3B4136E006A36B897DB3F /* Pods-kl-parking-spots-swift-acknowledgements.plist */,
+				BEA553E95651B3388D55D0B1 /* Pods-kl-parking-spots-swift-dummy.m */,
+				8B03EEE1FF0FFA84DA35C3F6 /* Pods-kl-parking-spots-swift-environment.h */,
+				5F1C5144B6D3B94973C419AC /* Pods-kl-parking-spots-swift-frameworks.sh */,
+				0A8177A2C710DDEC22C3DD84 /* Pods-kl-parking-spots-swift-resources.sh */,
+				2AE313A25DC346DF08CE3D9E /* Pods-kl-parking-spots-swift-umbrella.h */,
+				93BC52ADF0BA60382F0D98F0 /* Pods-kl-parking-spots-swift.debug.xcconfig */,
+				05A4FA909AD7BF32C30C862F /* Pods-kl-parking-spots-swift.release.xcconfig */,
+			);
+			name = "Pods-kl-parking-spots-swift";
+			path = "Target Support Files/Pods-kl-parking-spots-swift";
+			sourceTree = "<group>";
+		};
+		E929C6BFA7B27DFCBBB2D77E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC1441C3E7E89A4FD827D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED137C4E68426FFD7E831C8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB98DC0CC6B951E4A899A96 /* Pods */,
+				E35F1004A60F4D79603DE7E7 /* Pods-kl-parking-spots-swift */,
+				8DF8269D20A0713578A07B8C /* Pods-kl-parking-spots-swiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06F2B5306EF4D499D5616282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F633B83723F6ECBC974290 /* Pods-kl-parking-spots-swiftTests-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DC44AFD0C2A460172E6F04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A490DB715F76CAA8956A2AF8 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460ACF2D1C611B7F747D1749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FC2DE4017CFBA56923774C /* Pods-kl-parking-spots-swift-Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469D0641F0D5C78C597D6BB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAF8F3A90C0FE0AB42D437 /* Pods-kl-parking-spots-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66ACA2C87222F89BBA2040D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF9C25176F2F35E4980DF7 /* Pods-kl-parking-spots-swiftTests-Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE059FBD9C2D425F073398B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28583E7E41F43393746BC0A /* Pods-kl-parking-spots-swiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFEB9C2809F6AE10777B0EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7E2EC6BD0CAC54AA6D9E6E /* Pods-Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB6448D7C6AA4E34404077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88401AC3D80A72D4654772C /* Pods-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BB949CF4D2B2F24BF032F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B857C758999B4EC3A4A166 /* Pods-kl-parking-spots-swift-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04964CFE954A66A32F5A4A7D /* Pods-Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5237AEB2D48551397643D5FF /* Build configuration list for PBXNativeTarget "Pods-Toucan" */;
+			buildPhases = (
+				F380D3918B6796829DD56E05 /* Sources */,
+				931E38B028D38FA1852AF756 /* Frameworks */,
+				7BFEB9C2809F6AE10777B0EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Toucan";
+			productName = "Pods-Toucan";
+			productReference = 9574BB3E6043E3D4753AB39E /* Toucan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		169C46D673C06612435236FD /* Pods-kl-parking-spots-swiftTests-Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA0B7A9AFA4E5DCB27D6CF6 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests-Toucan" */;
+			buildPhases = (
+				DE474F651694D0ED9F14EB74 /* Sources */,
+				026130D2858650D055C32C78 /* Frameworks */,
+				66ACA2C87222F89BBA2040D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kl-parking-spots-swiftTests-Toucan";
+			productName = "Pods-kl-parking-spots-swiftTests-Toucan";
+			productReference = F7AA01AEBDD0D4170F1890D8 /* Toucan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23852C13576766875EF64043 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F81B4A8F24467A6E1E80201 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				4BA2918B935CEA583482C7B4 /* Sources */,
+				5D1C339D6F8D4A9F99E63F2A /* Frameworks */,
+				16DC44AFD0C2A460172E6F04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0952AF83F1CCC8AEB536454 /* PBXTargetDependency */,
+				53EA330F0C0709F00C40732A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AC9866BEA323468E1ADA5E82 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2722093CD251B6B95AC91A39 /* Pods-kl-parking-spots-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EFDBB77DB810CD3BF99414 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests" */;
+			buildPhases = (
+				37370D09D5C2417CFE3B62F6 /* Sources */,
+				6255E8AF827EF24D75722A10 /* Frameworks */,
+				6AE059FBD9C2D425F073398B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A7B83A94E46B86DF2DC48D /* PBXTargetDependency */,
+				A2997A4E68B7749AA925CD48 /* PBXTargetDependency */,
+			);
+			name = "Pods-kl-parking-spots-swiftTests";
+			productName = "Pods-kl-parking-spots-swiftTests";
+			productReference = 0120422274BD8DA86B40F4F3 /* Pods_kl_parking_spots_swiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D57675329CF5DA6C2EBA2C2 /* Pods-kl-parking-spots-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6B026BA27E8225A8EFB504 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift" */;
+			buildPhases = (
+				0073B95D49BCB2C5E9C690F9 /* Sources */,
+				089AA343B06B3A2F569AD41A /* Frameworks */,
+				469D0641F0D5C78C597D6BB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8587AC267B09762F138A8B1 /* PBXTargetDependency */,
+				08EFE9539E9359F514AACCAA /* PBXTargetDependency */,
+			);
+			name = "Pods-kl-parking-spots-swift";
+			productName = "Pods-kl-parking-spots-swift";
+			productReference = 6DE671B594FB03711AE753B0 /* Pods_kl_parking_spots_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		639BC97B0206D6FA82987A4D /* Pods-kl-parking-spots-swiftTests-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F68F6CA3FB314885068FFB7 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests-Alamofire" */;
+			buildPhases = (
+				1619C0DA0D707B51F660B511 /* Sources */,
+				33360F460EF4CE9C30997AFD /* Frameworks */,
+				06F2B5306EF4D499D5616282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kl-parking-spots-swiftTests-Alamofire";
+			productName = "Pods-kl-parking-spots-swiftTests-Alamofire";
+			productReference = B1DF8A44DFA06C8E1D51F4CF /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4A18088233ADB7C949319A0 /* Pods-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1E1562312EE4462E82D886 /* Build configuration list for PBXNativeTarget "Pods-Alamofire" */;
+			buildPhases = (
+				3A5549E045F60B5C6E43BB14 /* Sources */,
+				2CC403BB4E478AADBCF67C63 /* Frameworks */,
+				84BB6448D7C6AA4E34404077 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Alamofire";
+			productName = "Pods-Alamofire";
+			productReference = 19B1AA49641DBA9CCE91876F /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9B5441E720A0AFD0AFB3A12 /* Pods-kl-parking-spots-swift-Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFF17B669627C254EA15449 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift-Toucan" */;
+			buildPhases = (
+				01738B3516D28ECCDD1C59AF /* Sources */,
+				4A0F7CDEB81C2295A94A830D /* Frameworks */,
+				460ACF2D1C611B7F747D1749 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kl-parking-spots-swift-Toucan";
+			productName = "Pods-kl-parking-spots-swift-Toucan";
+			productReference = 7881F7DA8673623078A374F7 /* Toucan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1F1617C9A33013F415CAB6B /* Pods-kl-parking-spots-swift-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3C4BC2647F11F2578F8476 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift-Alamofire" */;
+			buildPhases = (
+				D232BDAE74314B83A6D59A57 /* Sources */,
+				37E0F17B97C0CE420459B8DF /* Frameworks */,
+				90BB949CF4D2B2F24BF032F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-kl-parking-spots-swift-Alamofire";
+			productName = "Pods-kl-parking-spots-swift-Alamofire";
+			productReference = 1249697BBF288E5078E2AE4F /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355906241CDEED7960E72766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = DC057ABEA5E7997C9D5B6C54 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5956D6C41B8EE0BD816A5D47;
+			productRefGroup = 6371379C4EA4703327839B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23852C13576766875EF64043 /* Pods */,
+				B4A18088233ADB7C949319A0 /* Pods-Alamofire */,
+				04964CFE954A66A32F5A4A7D /* Pods-Toucan */,
+				3D57675329CF5DA6C2EBA2C2 /* Pods-kl-parking-spots-swift */,
+				E1F1617C9A33013F415CAB6B /* Pods-kl-parking-spots-swift-Alamofire */,
+				D9B5441E720A0AFD0AFB3A12 /* Pods-kl-parking-spots-swift-Toucan */,
+				2722093CD251B6B95AC91A39 /* Pods-kl-parking-spots-swiftTests */,
+				639BC97B0206D6FA82987A4D /* Pods-kl-parking-spots-swiftTests-Alamofire */,
+				169C46D673C06612435236FD /* Pods-kl-parking-spots-swiftTests-Toucan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0073B95D49BCB2C5E9C690F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB855B6E379B42D7380F25 /* Pods-kl-parking-spots-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01738B3516D28ECCDD1C59AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A038BBA22D3280C2EC965745 /* Pods-kl-parking-spots-swift-Toucan-dummy.m in Sources */,
+				3737DF51A8D28F5D9107DCCE /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1619C0DA0D707B51F660B511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF624381B3C5CA5E7E92944F /* Alamofire.swift in Sources */,
+				394EE5CF152AD2D0C925E44C /* Download.swift in Sources */,
+				5C749F576F21A321CB9CF017 /* Manager.swift in Sources */,
+				23A4D0ECC7928E6237EEFB30 /* ParameterEncoding.swift in Sources */,
+				F809A6EE868F0E5CA11C6DA0 /* Pods-kl-parking-spots-swiftTests-Alamofire-dummy.m in Sources */,
+				813A872969A528A5152D2F14 /* Request.swift in Sources */,
+				2046CFDD01C017346904ADB1 /* ResponseSerialization.swift in Sources */,
+				FE10F9D5A66E6E46633E452B /* Upload.swift in Sources */,
+				4D3CEECC82EEF7A6B4E6263A /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37370D09D5C2417CFE3B62F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3EA402F7DF4AD2EAFA14E4 /* Pods-kl-parking-spots-swiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5549E045F60B5C6E43BB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9165E24E10BFAB2C960878 /* Alamofire.swift in Sources */,
+				275849E9071C2728944D6376 /* Download.swift in Sources */,
+				60AF937D0FC6170714D0C449 /* Manager.swift in Sources */,
+				9396812A1F4DA5391C4A086F /* ParameterEncoding.swift in Sources */,
+				E5EE0A0DEC9BBA4FD130998C /* Pods-Alamofire-dummy.m in Sources */,
+				CE0528EBBB550EA2BB97981B /* Request.swift in Sources */,
+				81508D3B06A7FDE6E377908F /* ResponseSerialization.swift in Sources */,
+				0AC5FD8D88238B9EEF6A0555 /* Upload.swift in Sources */,
+				CE35D9CF71197342D82C4927 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA2918B935CEA583482C7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4AB937DBDCCDCC36C29FDC /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D232BDAE74314B83A6D59A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81364D490DFD30CE66C2CEDD /* Alamofire.swift in Sources */,
+				EDF7E807B602A5D12482265C /* Download.swift in Sources */,
+				0E195478B26FFCBD75D446D0 /* Manager.swift in Sources */,
+				82B1AF9145D421759539EE26 /* ParameterEncoding.swift in Sources */,
+				27E31F657E8CDB2B0F9F78BB /* Pods-kl-parking-spots-swift-Alamofire-dummy.m in Sources */,
+				F7E22C4BDF48688DAABAC120 /* Request.swift in Sources */,
+				418348817F4B4495F3A5BE5C /* ResponseSerialization.swift in Sources */,
+				97BA45508B2C52347B71579B /* Upload.swift in Sources */,
+				B532CA921B748D593505D04E /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE474F651694D0ED9F14EB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A745F4C7C6150AD995F904B /* Pods-kl-parking-spots-swiftTests-Toucan-dummy.m in Sources */,
+				E9AE73FE8058555831007D59 /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F380D3918B6796829DD56E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5FA2836D1124B86901683 /* Pods-Toucan-dummy.m in Sources */,
+				E49C1FC572BD3D0047E88846 /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08EFE9539E9359F514AACCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kl-parking-spots-swift-Toucan";
+			target = D9B5441E720A0AFD0AFB3A12 /* Pods-kl-parking-spots-swift-Toucan */;
+			targetProxy = 00953FC8B40AA8BCDBF571A4 /* PBXContainerItemProxy */;
+		};
+		53EA330F0C0709F00C40732A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Toucan";
+			target = 04964CFE954A66A32F5A4A7D /* Pods-Toucan */;
+			targetProxy = 648AFCC33EA02D384287FA4B /* PBXContainerItemProxy */;
+		};
+		64A7B83A94E46B86DF2DC48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kl-parking-spots-swiftTests-Alamofire";
+			target = 639BC97B0206D6FA82987A4D /* Pods-kl-parking-spots-swiftTests-Alamofire */;
+			targetProxy = 8ED9229C05BC5CC70244489A /* PBXContainerItemProxy */;
+		};
+		A2997A4E68B7749AA925CD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kl-parking-spots-swiftTests-Toucan";
+			target = 169C46D673C06612435236FD /* Pods-kl-parking-spots-swiftTests-Toucan */;
+			targetProxy = 08530D9F2AA5EC70CAA61C8B /* PBXContainerItemProxy */;
+		};
+		E0952AF83F1CCC8AEB536454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Alamofire";
+			target = B4A18088233ADB7C949319A0 /* Pods-Alamofire */;
+			targetProxy = B531ABEA228AE1F2ACD1B64E /* PBXContainerItemProxy */;
+		};
+		E8587AC267B09762F138A8B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kl-parking-spots-swift-Alamofire";
+			target = E1F1617C9A33013F415CAB6B /* Pods-kl-parking-spots-swift-Alamofire */;
+			targetProxy = 7AED4B595E0C4D722B894501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB9E7C29FAC1E65EB1375D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55C858788CED1DB85D138C0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F4B18E471510A494D7467DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D6603D4C9D69E155B29E94 /* Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BA0DA415FDE62D980F461BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2F32B8BCB65A1BE60FD491 /* Pods-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Alamofire/Pods-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire/Pods-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25289FD835F65887783B9B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDA6A470395416DB14F022F /* Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32627D0187E6B59356DFE22A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A4FA909AD7BF32C30C862F /* Pods-kl-parking-spots-swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift/Pods-kl-parking-spots-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_kl_parking_spots_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37B0CCA198180C74DD507DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85163D5EB38E5C51BB03D4A /* Pods-kl-parking-spots-swift-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B17891470DE66B71C03A8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E619D9AEC042BECA50AB5A /* Pods-kl-parking-spots-swiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests/Pods-kl-parking-spots-swiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_kl_parking_spots_swiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40B99E6E7CE1FEEB21C8B758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2D1895757B8AB302A77F47 /* Pods-kl-parking-spots-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests/Pods-kl-parking-spots-swiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_kl_parking_spots_swiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5852AF53EB47EB903C8D5F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4465C5DD3A4B4F38A1B143 /* Pods-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Toucan/Pods-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Toucan/Pods-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ABD5AFF4EBF620D096418A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85163D5EB38E5C51BB03D4A /* Pods-kl-parking-spots-swift-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Toucan/Pods-kl-parking-spots-swift-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		630D0087895FC853DFD09888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4465C5DD3A4B4F38A1B143 /* Pods-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Toucan/Pods-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Toucan/Pods-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E090B00FD7A440756D1B370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D6603D4C9D69E155B29E94 /* Pods-kl-parking-spots-swiftTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Alamofire/Pods-kl-parking-spots-swiftTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83CE82C0A47FE65502CD92FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDA6A470395416DB14F022F /* Pods-kl-parking-spots-swift-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift-Alamofire/Pods-kl-parking-spots-swift-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		916D3530505CAB349BA68BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92F49AB99A014FEB9CBC4625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BC52ADF0BA60382F0D98F0 /* Pods-kl-parking-spots-swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swift/Pods-kl-parking-spots-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_kl_parking_spots_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D18AF9AB703008E942AD203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D8095AF27909B4B72665AD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A757AB4C00CEB5A715D7F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BD6D856C6B22C867A032C0 /* Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED4EDD989A04D3086C5A3446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2F32B8BCB65A1BE60FD491 /* Pods-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Alamofire/Pods-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire/Pods-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F17923F7D006CE5759376C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BD6D856C6B22C867A032C0 /* Pods-kl-parking-spots-swiftTests-Toucan-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-kl-parking-spots-swiftTests-Toucan/Pods-kl-parking-spots-swiftTests-Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9B9E3F94E4E8BD9CBD30F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EFDBB77DB810CD3BF99414 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B99E6E7CE1FEEB21C8B758 /* Debug */,
+				3B17891470DE66B71C03A8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F81B4A8F24467A6E1E80201 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D18AF9AB703008E942AD203 /* Debug */,
+				0AB9E7C29FAC1E65EB1375D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5237AEB2D48551397643D5FF /* Build configuration list for PBXNativeTarget "Pods-Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630D0087895FC853DFD09888 /* Debug */,
+				5852AF53EB47EB903C8D5F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFF17B669627C254EA15449 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift-Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B0CCA198180C74DD507DAE /* Debug */,
+				5ABD5AFF4EBF620D096418A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F68F6CA3FB314885068FFB7 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4B18E471510A494D7467DE /* Debug */,
+				6E090B00FD7A440756D1B370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1E1562312EE4462E82D886 /* Build configuration list for PBXNativeTarget "Pods-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4EDD989A04D3086C5A3446 /* Debug */,
+				1BA0DA415FDE62D980F461BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3C4BC2647F11F2578F8476 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25289FD835F65887783B9B13 /* Debug */,
+				83CE82C0A47FE65502CD92FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA0B7A9AFA4E5DCB27D6CF6 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swiftTests-Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A757AB4C00CEB5A715D7F6D6 /* Debug */,
+				F17923F7D006CE5759376C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC057ABEA5E7997C9D5B6C54 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916D3530505CAB349BA68BB3 /* Debug */,
+				F9B9E3F94E4E8BD9CBD30F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6B026BA27E8225A8EFB504 /* Build configuration list for PBXNativeTarget "Pods-kl-parking-spots-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F49AB99A014FEB9CBC4625 /* Debug */,
+				32627D0187E6B59356DFE22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 355906241CDEED7960E72766 /* Project object */;
+}
